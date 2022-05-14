@@ -25,4 +25,12 @@ public class quadrilatero {
 		System.out.println("A área do trapézio é : " + areaT);
 
 	}
+	
+	public static void area(float diagonal, float diagonal2) {
+
+		double areaL = (diagonal * diagonal2) / 2;
+
+		System.out.println("A área do losângo é : " + areaL);
+
+	}
 }
